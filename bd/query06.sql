@@ -1,4 +1,4 @@
--- Consulta 06: Lista o nome artístico, o título do álbum, a data de lançamentoe e o total de faixas presentes no álbum mais recente do artista, ordenado cronologicamente.  
+-- Consulta 06: Lista o nome artístico, o título do álbum, a data de lançamento e o total de faixas presentes no álbum mais recente do artista, ordenado cronologicamente.  
 
 SELECT 
     A.nome_artistico,
