@@ -2,8 +2,8 @@
 
 SELECT 
     A.nome_artistico,
-    P.nome,
-    P.pais_origem
+    P.nome
+
 FROM
     estudio.artista A
 

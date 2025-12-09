@@ -6,9 +6,7 @@
 
 ## 📖 Sobre o Projeto
 
-Projeto final da disciplina de Banco de Dados I, que consiste na modelagem e implementação de um banco de dados relacional para gerenciar o ecossistema de uma gravadora musical.
-
-O sistema abrange desde o cadastro de pessoas e contratos até o gerenciamento de discografia, turnês, premiações e análise de performance (streams).
+Projeto final da disciplina de Banco de Dados I, que consiste na modelagem e implementação de um banco de dados para gerenciar uma gravadora musical.
 
 ## 🚀 Tecnologias Utilizadas
 

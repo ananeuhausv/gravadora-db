@@ -104,7 +104,7 @@ CREATE TABLE estudio.musica(
     id_musica SERIAL PRIMARY KEY,
     titulo VARCHAR(100) NOT NULL,
     duracao TIME,
-    qtd_stream BIGINT DEFAULT 0,
+    qtd_stream INT DEFAULT 0,
     idioma VARCHAR(30),
     faixa INT NOT NULL,
     id_album INT,
@@ -182,3 +182,4 @@ CREATE TABLE estudio.album_plataforma(
     CONSTRAINT fk_album_plataforma FOREIGN KEY (id_album) REFERENCES estudio.album(id_album),
     CONSTRAINT fk_plataforma_album FOREIGN KEY (id_plataforma) REFERENCES estudio.plataforma(id_plataforma)
 );
+

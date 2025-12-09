@@ -1,7 +1,7 @@
 -- Consulta 10: Lista o nome do álbum, o título da sua música mais ouvida e a quantidade de streams dessa música, apenas para álbuns com mais de 5 faixas. 
 
 SELECT 
-    A.titulo,
+    A.titulo AS nome_album,
     M.titulo,
     M.qtd_stream
 

@@ -16,7 +16,7 @@
 			"server": "localhost",
 			"port": 5432,
 			"driver": "PostgreSQL",
-			"name": "bdaula",
+			"name": "estudio",
 			"database": "postgres",
 			"username": "postgres"
 		}

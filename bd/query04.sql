@@ -17,6 +17,6 @@ JOIN
 
 GROUP BY 
     A.nome_artistico, P.nome
-    
+
 ORDER BY 
     A.nome_artistico, quantidade DESC;

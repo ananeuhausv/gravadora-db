@@ -16,7 +16,7 @@ INNER JOIN
     estudio.musica MUS ON AM.id_musica = MUS.id_musica
 
 INNER JOIN
-    estudio.album AL ON A.id_pessoa = AL.id_artista
+    estudio.album AL ON MUS.id_album = AL.id_album
 
 LEFT JOIN
     estudio.musica M ON M.id_album = AL.id_album
